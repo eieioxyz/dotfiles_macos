@@ -4,11 +4,9 @@
 
 - clean: ['~']
 
-# - link:
-#     ~/.dotfiles: ''
-#     ~/.tmux.conf: tmux.conf
+- link:
 #     ~/.vim: vim
-#     ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
 
 - create:
     - ~/Work
