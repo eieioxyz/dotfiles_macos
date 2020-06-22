@@ -13,3 +13,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Trackpad (Three Finger Drag and Tap to Click)
 - Git (config and SSH)
 - Alfred (turn off Spotlight shortcut and use for Alfred)
+- Snappy (turn off cmd+shift+4 for screenshots and use for Snappy)
