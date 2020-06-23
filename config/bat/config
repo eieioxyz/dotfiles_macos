@@ -10,4 +10,4 @@
 #--map-syntax ".ignore:Git Ignore"
 --map-syntax "zshrc:Bourne Again Shell (bash)"
 --map-syntax "zshenv:Bourne Again Shell (bash)"
---map-syntax "Brewfils:Bourne Again Shell (bash)"
+--map-syntax "Brewfile:Bourne Again Shell (bash)"
