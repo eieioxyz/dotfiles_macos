@@ -11,6 +11,8 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 cask "alfred"
 cask "dropbox"
 cask "gitkraken"
