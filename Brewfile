@@ -15,6 +15,8 @@ brew "less"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# UNIX shell (command interpreter)
+brew "zsh"
 cask "alfred"
 cask "dropbox"
 cask "gitkraken"
