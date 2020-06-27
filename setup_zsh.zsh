@@ -19,3 +19,15 @@ else
   echo "Enter user password to change login shell"
   chsh -s '/usr/local/bin/zsh'
 fi
+
+
+if sh --version | grep -q zsh; then
+  echo '/private/var/select/sh already linked to /bin/zsh'
+else
+  echo "Enter superuser (sudo) password to symlink sh to zsh"
+  # Looked cute, might delete later, idk
+  sudo ln -sfv /bin/zsh /private/var/select/sh
+
+  # I'd like for this to work instead.
+  # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
+fi
