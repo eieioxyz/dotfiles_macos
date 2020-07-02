@@ -14,7 +14,7 @@ export PREFIX="$N_PREFIX"
 
 # History Options
 setopt histNoStore
-
+setopt extendedHistory
 
 
 # Create Aliases
