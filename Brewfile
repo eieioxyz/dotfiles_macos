@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -21,6 +22,8 @@ brew "nano"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 cask "alfred"
 cask "dropbox"
 cask "gitkraken"
