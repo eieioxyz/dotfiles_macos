@@ -12,8 +12,8 @@ export PREFIX="$N_PREFIX"
 
 # Adjust History Variables & Options
 [[ -z $HISTFILE ]] && HISTFILE="$HOME/.zsh_history"
-HISTSIZE=10 # Session Memory Limit
-SAVEHIST=10 # File Memory Limit
+HISTSIZE=5000 # Session Memory Limit
+SAVEHIST=4000 # File Memory Limit
 setopt histNoStore
 setopt extendedHistory
 
@@ -21,7 +21,8 @@ setopt extendedHistory
 # setopt histFindNoDups
 # setopt histSaveNoDups
 # setopt histExpireDupsFirst
-setopt histIgnoreDups
+# setopt histIgnoreDups
+setopt histIgnoreAllDups
 
 # Create Aliases
 alias ls='exa -laFh --git'
