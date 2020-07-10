@@ -11,16 +11,16 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 
 # Adjust History Variables & Options
-# HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 [[ -z $HISTFILE ]] && HISTFILE="$HOME/.zsh_history"
-HISTSIZE=2000
-SAVEHIST=1000
+HISTSIZE=10 # Session Memory Limit
+SAVEHIST=10 # File Memory Limit
 setopt histNoStore
 setopt extendedHistory
 
 # History Duplication Options
-setopt histFindNoDups
-setopt histSaveNoDups
+# setopt histFindNoDups
+# setopt histSaveNoDups
+setopt histExpireDupsFirst
 
 
 # Create Aliases
