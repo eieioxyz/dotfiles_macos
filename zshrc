@@ -20,8 +20,8 @@ setopt extendedHistory
 # History Duplication Options
 # setopt histFindNoDups
 # setopt histSaveNoDups
-setopt histExpireDupsFirst
-
+# setopt histExpireDupsFirst
+setopt histIgnoreDups
 
 # Create Aliases
 alias ls='exa -laFh --git'
