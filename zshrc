@@ -25,8 +25,10 @@ setopt extendedHistory
 setopt histIgnoreAllDups
 
 # History Appending Options
-# appendHistory is the default, so we don't really need to set it
-setopt appendHistory
+# Explicitly turning off appendHistory (though
+# incAppendHistory probably supersedes it anyway)
+unsetopt appendHistory
+setopt incAppendHistory
 
 
 # Create Aliases
