@@ -28,7 +28,8 @@ setopt histIgnoreAllDups
 # Explicitly turning off appendHistory (though
 # incAppendHistory probably supersedes it anyway)
 unsetopt appendHistory
-setopt incAppendHistory
+# setopt incAppendHistory
+setopt incAppendHistoryTime
 
 
 # Create Aliases
