@@ -16,21 +16,9 @@ HISTSIZE=5000 # Session Memory Limit
 SAVEHIST=4000 # File Memory Limit
 setopt histNoStore
 setopt extendedHistory
-
-# History Duplication Options
-# setopt histFindNoDups
-# setopt histSaveNoDups
-# setopt histExpireDupsFirst
-# setopt histIgnoreDups
 setopt histIgnoreAllDups
-
-# History Appending Options
-# Explicitly turning off appendHistory (though
-# incAppendHistory probably supersedes it anyway)
-unsetopt appendHistory
-# setopt incAppendHistory
+unsetopt appendHistory # explicit and unnecessary
 setopt incAppendHistoryTime
-# setopt shareHistory
 
 
 # Create Aliases
