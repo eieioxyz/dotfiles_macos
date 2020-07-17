@@ -24,6 +24,7 @@ setopt incAppendHistoryTime
 # autoMenu & autoList are on by default
 setopt menuComplete
 setopt autoCd
+setopt globDots
 
 
 # Create Aliases
