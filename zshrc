@@ -70,5 +70,10 @@ bindkey "^[[A" up-line-or-search
 bindkey "^[[B" down-line-or-search
 
 
+# Add "zstyles" for Completions
+# :completion:function:completer:command:argument:tag
+zstyle ':completion:*:*:*:*:*' menu select
+
+
 # Load "New" Completion System
 autoload -Uz compinit && compinit
