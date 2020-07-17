@@ -20,9 +20,10 @@ setopt histIgnoreAllDups
 unsetopt appendHistory # explicit and unnecessary
 setopt incAppendHistoryTime
 
-# Line Editor Options (Completion & Menu)
+# Line Editor Options (Completion, Menu, Directory, etc.)
 # autoMenu & autoList are on by default
 setopt menuComplete
+setopt autoCd
 
 
 # Create Aliases
