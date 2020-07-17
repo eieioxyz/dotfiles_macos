@@ -20,8 +20,10 @@ setopt histIgnoreAllDups
 unsetopt appendHistory # explicit and unnecessary
 setopt incAppendHistoryTime
 
-# Line Editor Options
+# Line Editor Options (Completion & Menu)
 # autoMenu & autoList are on by default
+setopt menuComplete
+
 
 # Create Aliases
 alias ls='exa -laFh --git'
