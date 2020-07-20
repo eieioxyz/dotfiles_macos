@@ -31,6 +31,7 @@ alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias ftrail='<<<${(F)fpath}'
 alias rm=trash
 alias man=batman
 # Load history into shell (shareHistory alternative)
