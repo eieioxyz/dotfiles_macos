@@ -62,6 +62,7 @@ function mkcd() {
 
 
 # Use ZSH Plugins
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 source <(antibody init)
 antibody bundle < "$DOTFILES/antibody_plugins"
 
