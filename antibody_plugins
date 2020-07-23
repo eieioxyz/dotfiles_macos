@@ -1,2 +1,9 @@
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
+
+# This plugin might need to be the last one.
+# https://github.com/zsh-users/zsh-history-substring-search#usage
+# If you want to use zsh-syntax-highlighting along
+# with this script, then make sure that you load it
+# before you load this script:
+zsh-users/zsh-history-substring-search
