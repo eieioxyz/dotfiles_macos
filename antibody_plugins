@@ -1,6 +1,7 @@
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 
+zdharma/history-search-multi-word
 zdharma/fast-syntax-highlighting
 
 # This plugin might need to be the last one.
