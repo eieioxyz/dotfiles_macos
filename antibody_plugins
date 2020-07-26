@@ -4,6 +4,8 @@ zsh-users/zsh-autosuggestions
 zdharma/history-search-multi-word
 zdharma/fast-syntax-highlighting
 
+denysdovhan/spaceship-prompt
+
 # This plugin might need to be the last one.
 # https://github.com/zsh-users/zsh-history-substring-search#usage
 # If you want to use zsh-syntax-highlighting along

@@ -39,10 +39,9 @@ alias man=batman
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 # Customize Prompt(s)
-PROMPT='
-%1~ %L %# '
-
-RPROMPT='%*'
+# PROMPT='
+# %1~ %L %# '
+# RPROMPT='%*'
 
 
 # Add Locations to $path Array
