@@ -11,7 +11,9 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/.dotfi
 
 # System Preferences > Dock
 defaults write com.apple.dock magnification -bool true
-defaults write com.apple.dock tilesize -float 45
-defaults write com.apple.dock largesize -float 60
+defaults write com.apple.dock tilesize -int 45
+defaults write com.apple.dock largesize -int 60
 defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide-time-modifier -float 0.25
+defaults write com.apple.dock autohide-delay -float 0.1
 killall Dock
