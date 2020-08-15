@@ -34,6 +34,7 @@ cask "dropbox"
 cask "font-fira-code"
 cask "gitkraken"
 cask "google-chrome"
+cask "hyper"
 cask "visual-studio-code"
 mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835

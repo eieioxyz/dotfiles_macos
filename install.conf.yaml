@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
+    ~/.hyper.js:
     ~/.config/bat:
       create: true
       path: config/bat
