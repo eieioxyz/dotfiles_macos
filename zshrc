@@ -53,7 +53,7 @@ SPACESHIP_PROMPT_ORDER=(
   host          # Hostname section
   git           # Git section (git_branch + git_status)
   package       # Package version
-  node          # Node.js section
+#  node          # Node.js section
   exec_time     # Execution time
   line_sep      # Line break
   shlvl         # Custom section from spaceship_shlvl.zsh
