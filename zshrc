@@ -30,7 +30,6 @@ setopt globDots
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
-alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
 alias rm=trash
@@ -53,7 +52,7 @@ SPACESHIP_PROMPT_ORDER=(
   host          # Hostname section
   git           # Git section (git_branch + git_status)
   package       # Package version
-#  node          # Node.js section
+  # node          # Node.js section
   exec_time     # Execution time
   line_sep      # Line break
   shlvl         # Custom section from spaceship_shlvl.zsh
@@ -84,6 +83,25 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+# Ensure Brewfile is only created in ~/.dotfiles directory
+function bbd() {
+
+  local startingDirectory=$PWD;
+
+  if [[ $startingDirectory != $DOTFILES ]]; then
+    echo "Changing to $DOTFILES";
+    cd $DOTFILES;
+  fi
+
+  echo "Dumping Brewfile";
+  brew bundle dump --force --describe;
+
+  if [[ $startingDirectory != $DOTFILES ]]; then
+    echo "Returning to $startingDirectory";
+    cd $startingDirectory;
+  fi
+
+}
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
