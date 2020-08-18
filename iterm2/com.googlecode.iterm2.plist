@@ -226,12 +226,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.019607843137254902</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.14509803921568629</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.019607843137254902</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -684,7 +688,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>080BF79F-A8A2-4451-9EB9-5B4DA22F09BB</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>3</integer>
+	<integer>4</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1371,6 +1375,8 @@
 	<real>619390096.71722603</real>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/eieio/.dotfiles/iterm2</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1389,5 +1395,9 @@
 	<false/>
 	<key>iTerm Version</key>
 	<string>3.3.12</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
