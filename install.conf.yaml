@@ -10,6 +10,7 @@
     ~/.gitconfig:
     ~/.hyper.js:
     ~/.nanorc:
+    ~/.mackup.cfg:
     ~/.config/bat:
       create: true
       path: config/bat
