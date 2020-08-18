@@ -4,7 +4,6 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
 
 ## TODO
-- Terminal Preferences
 - Changed Shell to ZSH
 - Git (config and SSH)
 
@@ -25,5 +24,8 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
 5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`.
 
+#### Terminal
+
+1. `mackup restore`
 
 
