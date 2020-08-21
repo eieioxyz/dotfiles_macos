@@ -28,4 +28,8 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
 1. `mackup restore`
 
+#### VS Code
+
+We will have to do something with `code --install-extension` and our [vscode_extensions](vscode_extensions) (which are created with `code --list-extensions > vscode_extensions`).
+
 
