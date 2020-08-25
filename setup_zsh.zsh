@@ -8,7 +8,7 @@ echo "\n<<< Starting ZSH Setup >>>\n"
 if grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
   echo '/usr/local/bin/zsh already exists in /etc/shells'
 else
-  # echo "Enter superuser (sudo) password to edit /etc/shells"
+  echo "Enter superuser (sudo) password to edit /etc/shells"
   echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 fi
 
