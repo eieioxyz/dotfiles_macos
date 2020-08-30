@@ -4,10 +4,31 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
 
 ## TODO
-- Changed Shell to ZSH
-- Git (config and SSH)
+- Git clone / SSH
+
+
+## Decommission Computer
+
+[Create a bootable USB installer for macOS](https://support.apple.com/en-us/HT201372).
+
+Backup / sync files:
+- Time Machine
+- Dropbox / Google Drive
+- Manual Backups (external drives, redundant cloud services)
+- Contacts, Photos, Calendar, Messages (Google, iCloud)
+- etc.
+
+Deactivate licenses:
+- Dropbox (`Preferences > Account > Unlink`)
+- ScreenFlow (`Preferences > Licenses > Deactivate`)
+- Sign Out of App Store (`Menu > Store > Sign Out`)
+- iTunes, etc.
+
 
 ## Restore Instructions
+
+Actual restore instructions coming soon...
+
 
 ### Manual Steps
 
