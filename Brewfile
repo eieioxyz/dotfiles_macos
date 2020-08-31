@@ -23,8 +23,6 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Platform built on V8 to build network applications
-brew "node"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -34,7 +32,6 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 cask "brave-browser"
 cask "dropbox"
-cask "firefox"
 cask "font-fira-code"
 cask "gitkraken"
 cask "google-chrome"
@@ -42,8 +39,9 @@ cask "hyper"
 cask "iterm2"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
-cask "opera"
 cask "visual-studio-code"
 cask "vivaldi"
+cask "vlc"
+cask "zoomus"
 mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835
