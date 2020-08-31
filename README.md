@@ -24,6 +24,10 @@ Deactivate licenses:
 - Sign Out of App Store (`Menu > Store > Sign Out`)
 - iTunes, etc.
 
+Software Audit
+- Uninstall unwanted software (e.g. GarageBand, iMovie, Keynote, Numbers, Pages).
+- Install missing software (look at `/Applications`, panes in System Preferences , maybe `~/Applications`, etc.).
+
 
 ## Restore Instructions
 
