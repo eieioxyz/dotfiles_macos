@@ -11,7 +11,12 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
 [Create a bootable USB installer for macOS](https://support.apple.com/en-us/HT201372).
 
+Software audit:
+- Uninstall unwanted software (e.g. GarageBand, iMovie, Keynote, Numbers, Pages)
+- Install missing software (look at `/Applications`, panes in System Preferences , maybe `~/Applications`, etc.)
+
 Backup / sync files:
+- Commit and Push to remote repositories
 - Time Machine
 - Dropbox / Google Drive
 - Manual Backups (external drives, redundant cloud services)
@@ -23,10 +28,6 @@ Deactivate licenses:
 - ScreenFlow (`Preferences > Licenses > Deactivate`)
 - Sign Out of App Store (`Menu > Store > Sign Out`)
 - iTunes, etc.
-
-Software Audit
-- Uninstall unwanted software (e.g. GarageBand, iMovie, Keynote, Numbers, Pages).
-- Install missing software (look at `/Applications`, panes in System Preferences , maybe `~/Applications`, etc.).
 
 
 ## Restore Instructions
