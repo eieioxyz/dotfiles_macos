@@ -32,7 +32,13 @@ Deactivate licenses:
 
 ## Restore Instructions
 
-Actual restore instructions coming soon...
+1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
+2. `git clone https://github.com/eieioxyz/dotfiles_macos.git ~/.dotfiles`
+3. `cd ~/.dotfiles`
+4. If necessary, `git checkout <another_branch>`.
+5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
+6. [`./install`](install)
+7. Restart computer.
 
 
 ### Manual Steps
