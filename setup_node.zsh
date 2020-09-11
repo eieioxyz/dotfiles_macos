@@ -3,10 +3,12 @@
 echo "\n<<< Starting Node Setup >>>\n"
 
 # Node versions are managed with `n`, which is in the Brewfile.
-# See zshrc for N_PREFIX variable and addition to $path array.
+# See `zshenv` for the setting of the `N_PREFIX` variable,
+# thus making it available below during the first install.
+# See `zshrc` where `N_PREFIX/bin` is added to `$path`.
 
-if exists node; then
-  echo "Node $(node --version) & NPM $(npm --version) already installed"
+if exists $N_PREFIX/bin/node; then
+  echo "Node $($N_PREFIX/bin/node --version) & NPM $($N_PREFIX/bin/npm --version) already installed with n"
 else
   echo "Installing Node & NPM with n..."
   n latest
