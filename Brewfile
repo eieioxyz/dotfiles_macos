@@ -40,7 +40,6 @@ cask "iterm2"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "visual-studio-code"
-cask "vivaldi"
 cask "vlc"
 cask "zoomus"
 mas "Snappy", id: 512617038
