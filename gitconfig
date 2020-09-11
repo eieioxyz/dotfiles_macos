@@ -1,3 +1,5 @@
 [user]
 	name = Patrick McDonald
 	email = 66495007+eieioxyz@users.noreply.github.com
+[core]
+	editor = nano
