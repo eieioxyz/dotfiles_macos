@@ -29,3 +29,6 @@ sudo xcodebuild -license accept
 sudo xcodebuild -runFirstLaunch
 
 
+echo "Installing VS Code Extensions"
+cat vscode_extensions | xargs -L 1 code --install-extension
+

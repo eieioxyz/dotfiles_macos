@@ -17,6 +17,7 @@ Software audit:
 
 Backup / sync files:
 - Commit and Push to remote repositories
+- Run `code --list-extensions > vscode_extensions` from `~/.dotfiles` to export [VS Code extensions](vscode_extensions)
 - Time Machine
 - Dropbox / Google Drive
 - Manual Backups (external drives, redundant cloud services)
@@ -88,8 +89,5 @@ Deactivate licenses:
 4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
 5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`.
 
-#### VS Code
-
-We will have to do something with `code --install-extension` and our [vscode_extensions](vscode_extensions) (which are created with `code --list-extensions > vscode_extensions`).
 
 
