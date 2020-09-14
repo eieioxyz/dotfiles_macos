@@ -32,3 +32,11 @@ sudo xcodebuild -runFirstLaunch
 echo "Installing VS Code Extensions"
 cat vscode_extensions | xargs -L 1 code --install-extension
 
+
+# This works to solve the Insecure Directories issue:
+# compaudit | xargs chmod go-w
+# But this is from the Homebrew site, though `-R` was needed:
+# https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+chmod -R go-w "$(brew --prefix)/share
+
+
