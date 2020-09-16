@@ -1,10 +1,6 @@
 # dotfiles
 
-I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
-
-
-## TODO
-- Git clone / SSH
+I ***learned*** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz), and so can you!
 
 
 ## Decommission Computer
