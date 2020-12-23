@@ -2,6 +2,7 @@
 
 I ***learned*** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz), and so can you!
 
+Check out [my extensive course on Udemy](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276) where I'm working through each commit in this repo (~4hrs and ~22 commits so far, with more to come).
 
 ## Decommission Computer
 
