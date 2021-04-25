@@ -2,6 +2,21 @@
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
 
+# We can globally specify the Brewfile location by setting the
+# `HOMEBREW_BUNDLE_FILE` environment variable. Optionally, we
+# can also use the --file command to specify the file location
+# when executing `brew bundle dump`.
+#
+# With this you can execute the `brew bundle dump` command
+# from anywhere and make sure the output always writes to the
+# same `Brewfile` location.
+#
+# With --file argument example:
+# $ brew bundle dump --force --describe --file=~/.dotfiles/brew/Brewfile`
+#
+# Reference:
+# https://docs.brew.sh/Manpage#bundle-subcommand
+export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
 # Change ZSH Options
 
