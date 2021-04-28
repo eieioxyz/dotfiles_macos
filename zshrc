@@ -43,6 +43,7 @@ alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
 alias rm=trash
 alias man=batman
+alias bbd="brew bundle dump --force --describe"
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
@@ -92,11 +93,6 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-# Ensure Brewfile is only created in ~/.dotfiles directory
-function bbd() {
-  echo "Dumping Brewfile";
-  brew bundle dump --force --describe;
-}
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
