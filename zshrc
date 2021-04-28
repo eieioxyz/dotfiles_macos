@@ -1,7 +1,7 @@
 # Set Variables
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
-
+export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 
 # Change ZSH Options
 
@@ -28,6 +28,7 @@ alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
 alias rm=trash
 alias man=batman
+alias bbd="brew bundle dump --force --describe"
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
@@ -77,25 +78,6 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-# Ensure Brewfile is only created in ~/.dotfiles directory
-function bbd() {
-
-  local startingDirectory=$PWD;
-
-  if [[ $startingDirectory != $DOTFILES ]]; then
-    echo "Changing to $DOTFILES";
-    cd $DOTFILES;
-  fi
-
-  echo "Dumping Brewfile";
-  brew bundle dump --force --describe;
-
-  if [[ $startingDirectory != $DOTFILES ]]; then
-    echo "Returning to $startingDirectory";
-    cd $startingDirectory;
-  fi
-
-}
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
