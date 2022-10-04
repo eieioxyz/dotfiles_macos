@@ -1,6 +1,9 @@
 - defaults:
     link:
       relink: true
+    shell:
+      stdout: true
+      stderr: true
 
 - clean: ['~']
 
@@ -19,15 +22,7 @@
     - ~/Work
 
 - shell:
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_zsh.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_node.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_macos.zsh
-      stdout: true
-      stderr: true
+    - ./setup_homebrew.zsh
+    - ./setup_zsh.zsh
+    - ./setup_node.zsh
+    - ./setup_macos.zsh
