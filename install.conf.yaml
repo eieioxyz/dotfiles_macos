@@ -2,18 +2,21 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
+    ~/.zsh_plugins.txt:
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
-    ~/.hyper.js:
     ~/.nanorc:
     ~/.mackup.cfg:
     ~/.config/bat:
       create: true
       path: config/bat
+    ~/.config/youtube-dl:
+      create: true
+      path: config/youtube-dl
 
 - create:
     - ~/Work

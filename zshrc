@@ -1,7 +1,9 @@
+# echo "hello from zshrc $0"
 # Set Variables
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
+# export NX_VERBOSE_LOGGING=true
 
 # Change ZSH Options
 
@@ -33,6 +35,9 @@ alias bbd="brew bundle dump --force --describe"
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 # Customize Prompt(s)
+# PROMPT='%1~ %L %# '
+# precmd() { precmd() { echo }}
+
 source "$DOTFILES/spaceship_shlvl.zsh"
 
 SPACESHIP_CHAR_SYMBOL="❯ "
@@ -81,8 +86,12 @@ function mkcd() {
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-source <(antibody init)
-antibody bundle < "$DOTFILES/antibody_plugins"
+
+
+# source antidote
+source /usr/local/opt/antidote/share/antidote/antidote.zsh
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load
 
 
 # ...and Other Surprises
