@@ -1,0 +1,5 @@
+# Save all videos under ~/Downloads/ytdl
+--output ~/Downloads/ytdl/%(title)s.%(ext)s
+
+# Use httpie as the specified external downloader.
+--external-downloader httpie
