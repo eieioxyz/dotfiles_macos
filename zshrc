@@ -73,6 +73,7 @@ typeset -U path
 
 path=(
   "$N_PREFIX/bin"
+  # "/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
@@ -111,3 +112,7 @@ zstyle ':plugin:history-search-multi-word' clear-on-cancel 'yes'
 
 # Load "New" Completion System
 autoload -Uz compinit && compinit
+
+
+# Load Angular CLI autocompletion.
+# source <(ng completion script)
