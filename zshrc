@@ -83,6 +83,10 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+# Prevent non-existing commands from being added to history
+zshaddhistory() {
+  whence ${${(z)1}[1]} >| /dev/null || return 1
+}
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
