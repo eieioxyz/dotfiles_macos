@@ -1,8 +1,8 @@
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 
-zdharma/history-search-multi-word
-zdharma/fast-syntax-highlighting
+zdharma-continuum/history-search-multi-word
+zdharma-continuum/fast-syntax-highlighting
 
 denysdovhan/spaceship-prompt
 
