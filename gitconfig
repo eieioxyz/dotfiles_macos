@@ -3,3 +3,7 @@
 	email = 66495007+eieioxyz@users.noreply.github.com
 [core]
 	editor = nano
+[init]
+	defaultBranch = master
+[pull]
+	rebase = false
